@@ -1,4 +1,4 @@
-console.log('%c [Huldra] Init - Inspetor de Rede GA4 com E-commerce ', 'background: #2c3e50; color: #f1c40f; padding: 3px 8px; border-radius: 4px; font-weight: bold; border-left: 3px solid #f1c40f;');
+console.log('%c [Huldra] Init ', 'background: #ffffff; color: black; padding: 3px 8px; border-radius: 4px; font-weight: bold; border-left: 3px solid #0ff153;');
 
 function parseGA4Item(prString) {
     const parts = prString.split('~');
