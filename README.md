@@ -34,7 +34,7 @@ Para facilitar a leitura rápida em meio a muitos eventos, o Huldra utiliza a se
 * 🟣 **Lilás:** Propriedades de Usuário (`up.`).
 * 🟢 **Verde Brilhante:** Nome do Evento (`en`).
 * 🟠 **Laranja:** Parâmetros de Evento em texto (`ep.`).
-* 🩵 **Ciano:** Parâmetros de Evento numéricos (`epn.`).
+* 🔵 **Ciano:** Parâmetros de Evento numéricos (`epn.`).
 * 🔘 **Cinza:** Demais parâmetros da requisição.
 
 ## 🤝 Contribuindo
