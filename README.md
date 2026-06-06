@@ -35,7 +35,7 @@ O Huldra utiliza formatação nativa do console para acelerar a sua leitura anal
 * 🟣 **Lilás:** Propriedades de Usuário (`up.`).
 * 🟢 **Verde Brilhante:** Nome do Evento (`en`).
 * 🟠 **Laranja:** Parâmetros de Evento em formato de texto (`ep.`).
-* 🩵 **Ciano:** Parâmetros de Evento numéricos (`epn.`).
+* 🔵 **Ciano:** Parâmetros de Evento numéricos (`epn.`).
 * 🟡 **Amarelo:** Produtos do E-commerce decodificados (`pr`).
 * 🔘 **Cinza:** Demais parâmetros técnicos da requisição.
 
