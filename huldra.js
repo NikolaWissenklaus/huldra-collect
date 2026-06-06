@@ -62,7 +62,7 @@ function processGA4Request(url, bodyData, method) {
             const eventName = evt.en || 'page_view / config';
             const time = new Date().toLocaleTimeString();
             
-            const styleTag = 'background: #111; color: #1abc9c; padding: 3px 6px; border-radius: 3px; font-weight: bold; border: 1px solid #1abc9c;';
+            const styleTag = 'background: #111; color: #00ffff; padding: 3px 6px; border-radius: 3px; font-weight: bold; border: 1px solid #00ffff;';
             const styleMethod = 'color: #888; font-size: 10px; font-style: italic; margin-left: 5px;';
             
             console.groupCollapsed(`%c 📡 huldra_view: ${eventName} | ID: ${tid} %c [${time}] (${method})`, styleTag, styleMethod);
@@ -164,4 +164,4 @@ navigator.sendBeacon = function(url, data) {
     return originalBeacon.apply(this, arguments);
 };
 
-console.log('%c [Huldra] Pronto! Monitorando Rede e Decodificando E-commerce 📡🛒 ', 'background: #1abc9c; color: #111; padding: 3px 8px; border-radius: 4px; font-weight: bold;');
+console.log('%c [Huldra] Pronto! Monitorando Rede e Decodificando E-commerce 📡🛒 ', 'background: #00ffff; color: #111; padding: 3px 8px; border-radius: 4px; font-weight: bold;');
