@@ -65,7 +65,7 @@ function processGA4Request(url, bodyData, method) {
             const styleTag = 'background: #111; color: #1abc9c; padding: 3px 6px; border-radius: 3px; font-weight: bold; border: 1px solid #1abc9c;';
             const styleMethod = 'color: #888; font-size: 10px; font-style: italic; margin-left: 5px;';
             
-            console.groupCollapsed(`%c 📡 net_view: ${eventName} | ID: ${tid} %c [${time}] (${method})`, styleTag, styleMethod);
+            console.groupCollapsed(`%c 📡 huldra_view: ${eventName} | ID: ${tid} %c [${time}] (${method})`, styleTag, styleMethod);
             
             const ids = [];
             const ups = [];
